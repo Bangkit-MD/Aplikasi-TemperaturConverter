@@ -118,6 +118,7 @@ fun GeneralTemperatureInput(
             value = input,
             label = { Text(stringResource(R.string.enter_temperature, scale.scaleName)) },
             onValueChange = onChange,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
 
             )
     }
